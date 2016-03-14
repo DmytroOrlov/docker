@@ -1,7 +1,7 @@
 # Usage
 #
 # Create image:
-# $ docker build --rm -t ubuntu:tomcat .
+# $ docker build -t ubuntu:tomcat .
 #
 # JMX port: 1099, debug port: 8000
 # Create container from image:
