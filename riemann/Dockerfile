@@ -1,9 +1,9 @@
-# docker build -t riemann .
-FROM jdk
+# docker build -t dmytroorlov/riemann .
+FROM dmytroorlov/jdk
 
 WORKDIR /root
 
-ENV RM_VER 0.2.13
+ENV RM_VER 0.3.0
 ENV RM_URL https://github.com/riemann/riemann/releases/download/$RM_VER/riemann-$RM_VER.tar.bz2
 ENV RM_FILE riemann-$RM_VER.tar.bz2
 

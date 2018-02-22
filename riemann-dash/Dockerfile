@@ -1,4 +1,4 @@
-# $ docker build -t riemann-dash .
+# $ docker build -t dmytroorlov/riemann-dash .
 # $ docker run -d -p 4567:4567 --name riemann-dash riemann-dash
 
 FROM ruby
